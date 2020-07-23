@@ -1,0 +1,39 @@
+
+
+.header {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.logo {
+  color: grey;
+  font-family: 'Audrey';
+  font-size: 1.5rem;
+  padding-left: 40px;
+  &:hover{
+    color: #006699;
+  }
+}
+
+.header-content {
+  font-size: 20px;
+  height: 100%;
+  padding: 8px 60px;    
+  
+  
+}
+
+.link {
+  padding: 30px;
+  text-decoration: none;
+  color: #006699;
+  font-family: 'AmaticSC';
+}
+
+.link:hover {
+  color: black;
+}

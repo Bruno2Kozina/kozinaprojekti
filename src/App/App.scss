@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Audrey';
+  src: local('Audrey'), url(./fonts/Audrey/Audrey-Normal.otf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url(./fonts/Roboto/Roboto-Thin.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'RobotoBlack';
+  src: local('Roboto'), url(./fonts/Roboto/Roboto-Black.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'CormorantMedium';
+  src: local('Roboto'), url(./fonts/Cormorant/CormorantGaramond-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'AmaticSC';
+  src: local('Roboto'), url(./fonts/AmaticSC/AmaticSC-Bold.ttf) format('truetype');
+}
+
+body {
+font-family: 'CormorantMedium';
+}
+
+#root {
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 100vh;
+  margin: -8px;
+}
+
+#root main {
+  flex: 1;
+}
